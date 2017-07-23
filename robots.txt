@@ -1,0 +1,60 @@
+﻿User-agent: googlebot
+Disallow: /_db_backups
+Disallow: /css
+Disallow: /images
+Disallow: /includes
+Disallow: /jplayer
+Disallow: /js
+Disallow: /music
+Disallow: /stats
+
+User-agent: YahooSeeker
+Disallow: /_db_backups
+Disallow: /css
+Disallow: /images
+Disallow: /includes
+Disallow: /jplayer
+Disallow: /js
+Disallow: /music
+Disallow: /stats
+
+User-agent: MSNBot
+Disallow: /_db_backups
+Disallow: /css
+Disallow: /images
+Disallow: /includes
+Disallow: /jplayer
+Disallow: /js
+Disallow: /music
+Disallow: /stats
+
+User-Agent: ArchitextSpider
+Disallow: /_db_backups
+Disallow: /css
+Disallow: /images
+Disallow: /includes
+Disallow: /jplayer
+Disallow: /js
+Disallow: /music
+Disallow: /stats
+
+User-Agent: Scooter
+Disallow: /_db_backups
+Disallow: /css
+Disallow: /images
+Disallow: /includes
+Disallow: /jplayer
+Disallow: /js
+Disallow: /music
+Disallow: /stats
+
+ 
+User-agent: *
+Disallow: /
+
+# The following Agents have been allowed according to their Agent name:
+# MSN Agent = MSNBot
+# AltaVista Agent = Scooter
+# AOL Netfind / Excite Agent = ArchitextSpider
+# Yahoo Agent = YahooSeeker
+# Google Agent = googlebot

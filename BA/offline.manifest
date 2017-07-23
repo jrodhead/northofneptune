@@ -1,0 +1,25 @@
+﻿CACHE MANIFEST
+#This is a comment - more info at http://www.catswhocode.com/blog/how-to-create-offline-html5-web-apps-in-5-easy-steps
+
+CACHE:
+default.php
+css/ba.css
+css/mobile.css
+css/normalize.css
+js/modernizr261.js
+images/1.png
+images/2.png
+images/3.png
+images/4.png
+images/cover.png
+music/
+
+NETWORK:
+#this is used for pages that shouldn't be cached
+search.php
+login.php
+
+FALLBACK:
+#this allows you to redirect the user to a particular file if a resource isn't available
+/api offline.html
+#/api not available redirect to offline.html
