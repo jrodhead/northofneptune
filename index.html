@@ -84,9 +84,15 @@
 					<li class="connect"><i class="material-icons">share</i></li>
 				</ul>
 			</nav>
-			<p role="contentinfo">&copy; 2019 Boogie Barn Music</p>
+			<p role="contentinfo">&copy; <span id="copyrightYear">2011</span> Boogie Barn Music</p>
 		</footer>
 	</div>
 
 </body>
+<script>
+	var today = new Date();
+	var year = today.getFullYear();
+	$("#copyrightYear").replaceWith(year);
+</script>
+
 </html>
